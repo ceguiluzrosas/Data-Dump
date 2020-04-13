@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>0</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Created>2018-10-24T22:52:37Z</o:Created>
+  <o:LastSaved>2020-04-01T14:07:28Z</o:LastSaved>
+ </o:DocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="12" />
+  </Style>
+  <Style ss:ID="S62">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#222222" ss:FontName="Calibri" ss:Size="12" />
+  </Style>
+  <Style ss:ID="S63">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="12" />
+  </Style>
+  <Style ss:ID="S64">
+   <ss:Alignment ss:Vertical="Bottom" />
+   <ss:Font ss:Color="#222222" ss:FontName="Arial" ss:Size="12" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="geocoded">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="16.5" ss:DefaultColumnWidth="68.25" ss:ExpandedRowCount="79" ss:ExpandedColumnCount="5">
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="359.25" />
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="285.75" />
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="71.25" />
+   <Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="66.75" />
+   <Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="299.25" />
+   <Row ss:Index="1" ss:Height="16">
+    <Cell><Data ss:Type="String">school</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">addresses</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">lon</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">lat</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2" ss:Height="16">
+    <Cell><Data ss:Type="String">A Phillip Randolph Campus High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">443 W 135th St, New York, NY 10031</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.950131099999993</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.818338799999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3" ss:Height="16">
+    <Cell><Data ss:Type="String">Banana Kelly High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">965 Longwood Ave, Bronx, NY 10459</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.897815199999997</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.817827600000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4" ss:Height="16">
+    <Cell><Data ss:Type="String">Bard High School Early College Manhattan</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">525 E Houston St, New York, NY 10002</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.976074600000004</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.718091899999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5" ss:Height="16">
+    <Cell><Data ss:Type="String">Baruch College Campus High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">55 E 25th St, New York, NY 10010</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.985895400000004</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.741960200000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6" ss:Height="16">
+    <Cell><Data ss:Type="String">Bayside High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">3224 Corporal Kennedy St, Bayside, NY 11361</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.780807100000004</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.771481999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7" ss:Height="16">
+    <Cell><Data ss:Type="String">Beacon High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">522 W 44th St, New York, NY 10036</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.996133700000001</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.7613603</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8" ss:Height="16">
+    <Cell><Data ss:Type="String">Benjamin N. Cardozo High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">5700 223rd St, Bayside, NY 11364</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.756795299999993</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.751604399999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9" ss:Height="16">
+    <Cell><Data ss:Type="String">Bronx Academy of Letters</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">339 Morris Ave, Bronx, NY 10451</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.925921000000002</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.8136662</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10" ss:Height="16">
+    <Cell><Data ss:Type="String">Bronx Center for Science and Mathematics</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1363 Fulton Ave, Bronx, NY 10456</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.902747199999993</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.833972099999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11" ss:Height="16">
+    <Cell><Data ss:Type="String">Bronx Early College Academy (BECA)</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">250 E 164th St, Bronx, NY 10456</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.917276999999999</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.828333000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12" ss:Height="16">
+    <Cell><Data ss:Type="String">Bronx High School of Science</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">75 W 205th St, Bronx, NY 10468</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.890843000000004</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.878305400000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13" ss:Height="16">
+    <Cell><Data ss:Type="String">Bronx International High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1110 Boston Rd, Bronx, NY 10456</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.904509700000006</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.827303299999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14" ss:Height="16">
+    <Cell><Data ss:Type="String">Brooklyn Technical High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">29 Fort Greene Pl, Brooklyn, NY 11217</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.976483200000004</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.688912600000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15" ss:Height="16">
+    <Cell><Data ss:Type="String">Central Park East II</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">443 E 100th St, New York, NY 10029</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.941958900000003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.785493299999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16" ss:Height="16">
+    <Cell><Data ss:Type="String">Columbia Secondary School for Math, Science and Engineering</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">425 W 123rd St, New York, NY 10027</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.956232999999997</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.810713</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17" ss:Height="16">
+    <Cell><Data ss:Type="String">East Side Community School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">420 E 12th St, New York, NY 10009</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.982497899999998</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.729046699999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18" ss:Height="16">
+    <Cell><Data ss:Type="String">Eleanor Roosevelt High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">411 E 76th St, New York, NY 10021</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.953262100000003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.770132400000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="19" ss:Height="16">
+    <Cell><Data ss:Type="String">Elmont Memorial High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">555 Ridge Rd, Elmont, NY 11003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.717904200000007</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.696993999999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="20" ss:Height="16">
+    <Cell><Data ss:Type="String">Fierello H. LaGuardia High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">100 Amsterdam Ave, New York, NY 10023</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.985803599999997</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.774132799999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="21" ss:Height="16">
+    <Cell><Data ss:Type="String">Frank McCourt High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">145 W 84th St, New York, NY 10024</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.974095599999998</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.786010500000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="22" ss:Height="16">
+    <Cell><Data ss:Type="String">Frederick Douglass Academy I (FDA)</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2581 Adam Clayton Powell Jr Blvd, New York, NY 10039</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.936840399999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.824480700000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="23" ss:Height="16">
+    <Cell><Data ss:Type="String">Frederick Douglass Academy II</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">215 W 114th St, New York, NY 10026</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.954140300000006</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.802574399999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="24" ss:Height="16">
+    <Cell><Data ss:Type="String">Harlem Renaissance</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">22 E 128th St, New York, NY 10035</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.939977499999998</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.807804400000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="25" ss:Height="16">
+    <Cell><Data ss:Type="String">Heritage High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1680 Lexington Ave, New York, NY 10029</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.946865900000006</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.791896299999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="26" ss:Height="16">
+    <Cell><Data ss:Type="String">High School for Construction Trades Engineering and Architecture</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">94-06 104th St, Ozone Park, NY 11416</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.8412316</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.689273800000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="27" ss:Height="16">
+    <Cell><Data ss:Type="String">High School for dual language and Asian studies</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">350 Grand St, New York, NY 10002</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.989292899999995</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.717345199999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="28" ss:Height="16">
+    <Cell><Data ss:Type="String">High School for Environmental Studies</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">444 W 56th St, New York, NY 10019</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.988099199999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.767745099999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="29" ss:Height="16">
+    <Cell><Data ss:Type="String">High School for Health Professions and Human Services</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">345 E 15th St, New York, NY 10003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.982589700000005</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.732689000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="30" ss:Height="16">
+    <Cell><Data ss:Type="String">High School for Math, Science and Engineering at City College</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">240 Convent Ave, New York, NY 10031</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.949038900000005</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.821473900000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="31" ss:Height="16">
+    <Cell><Data ss:Type="String">High school of American studies at Lehman college</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2925 Goulden Ave, Bronx, NY 10468</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.898259400000001</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.8751192</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="32" ss:Height="16">
+    <Cell><Data ss:Type="String">High School of Arts and Technology</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">122 Amsterdam Ave, New York, NY 10023</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.985665900000001</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.7748463</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="33" ss:Height="16">
+    <Cell><Data ss:Type="String">High School of Telecommunication</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">350 67th St, Brooklyn, NY 11220</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-74.023310499999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.6367914</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="34" ss:Height="16">
+    <Cell><Data ss:Type="String">Hillcrest High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">160-05 Highland Ave, Jamaica, NY 11432</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.802471600000004</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.709522700000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="35" ss:Height="16">
+    <Cell><Data ss:Type="String">Hunter College High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">71 E 94th St, New York, NY 10128</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.954075500000002</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.7859415</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="36" ss:Height="16">
+    <Cell><Data ss:Type="String">Inwood Academy for Leadership</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">108 Cooper Street, New York, NY 10034</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.920884000000001</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.869008399999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="37" ss:Height="16">
+    <Cell><Data ss:Type="String">James Madison High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">14 E 24th St, New York, NY 10010</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.986324999999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.740849699999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="38" ss:Height="16">
+    <Cell><Data ss:Type="String">JFK High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">99 Terrace View Ave, Bronx, NY 10463</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.913386000000003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.877641199999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="39" ss:Height="16">
+    <Cell><Data ss:Type="String">John Bowne High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">63-25 Main St, Flushing, NY 11367</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.823986399999995</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.738349100000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="40" ss:Height="16">
+    <Cell><Data ss:Type="String">Lincoln High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">375 Kneeland Ave, Yonkers, NY 10704</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.874339000000006</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.921385000000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="41" ss:Height="16">
+    <Cell><Data ss:Type="String">Long Island City High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">14-30 Broadway, Astoria, NY 11106</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.933052900000007</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.765469699999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="42" ss:Height="16">
+    <Cell><Data ss:Type="String">Lower East Side Prep High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">145 Stanton St, New York, NY 10002</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.986033199999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.720087999999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="43" ss:Height="16">
+    <Cell><Data ss:Type="String">Manhattan Bridges High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">525 W 50th St, New York, NY 10019</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.993103599999998</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.7656384</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="44" ss:Height="16">
+    <Cell><Data ss:Type="String">Manhattan Center For Science and Mathematics</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">280 Pleasant Ave, New York, NY 10029</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.932976300000007</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.794353399999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="45" ss:Height="16">
+    <Cell><Data ss:Type="String">Manhattan International High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">317 E 67th St, New York, NY 10065</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.959696199999996</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.765368299999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="46" ss:Height="16">
+    <Cell><Data ss:Type="String">Midwood High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2839 Bedford Ave, Brooklyn, NY 11210</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.952363300000002</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.633146500000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="47" ss:Height="16">
+    <Cell><Data ss:Type="String">Morris Academy For Collaborative Studies</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1100 Boston Rd, Bronx, NY 10456</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.903924700000005</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.827216900000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="48" ss:Height="16">
+    <Cell><Data ss:Type="String">Mott Hall Bridges Academy</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">210 Chester St, Brooklyn, NY 11212</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.911089500000003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.666316899999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="49" ss:Height="16">
+    <Cell><Data ss:Type="String">Mott Hall II</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">234 W 109th St, New York, NY 10025</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.966060200000001</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.802647399999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="50" ss:Height="16">
+    <Cell><Data ss:Type="String">Mott Hall III</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">580 Crotona Park S, Bronx, NY 10456</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.900433399999997</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.835041599999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="51" ss:Height="16">
+    <Cell><Data ss:Type="String">Mott Hall School (MS)</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">71-111 Convent Ave Manhattan NY 10027</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.952651900000006</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.815776800000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="52" ss:Height="16">
+    <Cell><Data ss:Type="String">New Explorations into Science, Technology and Math High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">111 Columbia Street New York, NY 10002</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.979239199999995</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.719500199999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="53" ss:Height="16">
+    <Cell><Data ss:Type="String">New Heights Academy Charter School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1818 Amsterdam Ave, New York, NY 10031</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.945401799999999</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.828615200000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="54" ss:Height="16">
+    <Cell><Data ss:Type="String">Newtown High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">4801 90th St, Queens, NY 11373</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.873985599999997</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.740836899999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="55" ss:Height="16">
+    <Cell><Data ss:Type="String">NY Harbor School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">550 Short Ave, New York, NY 10004</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-74.020240099999995</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.690951200000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="56" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC MS 114</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">331 E 91st St, New York, NY 10128</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.947508799999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.780417300000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="57" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC MS 126</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">424 Leonard St, Brooklyn, NY 11222</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.947830199999999</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.719757100000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="58" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC MS 302</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">681 Kelly St, Bronx, NY 10455</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.901673599999995</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.815911800000002</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="59" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC MS 54 Booker T Washington</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">103 W 107th St, New York, NY 10025</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.962662300000005</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.800467699999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="60" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC PS 154</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">250 W 127th St, New York, NY 10027</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.948748699999996</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.810633799999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="61" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC PS 279</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">2100 Walton Ave, Bronx, NY 10453</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.904980699999996</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.8547601</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="62" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC PS 36</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">123 Morningside Dr, New York, NY 10027</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.957403999999997</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.810704999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="63" ss:Height="16">
+    <Cell><Data ss:Type="String">NYC PS 96</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">216 E 120th St, New York, NY 10035</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.937365900000003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.800080800000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="64" ss:Height="16">
+    <Cell><Data ss:Type="String">Queens High School for the Sciences at York College</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">94-50 159th St, Jamaica, NY 11451</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.798315299999999</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.700928599999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="65" ss:Height="16">
+    <Cell><Data ss:Type="String">Richmond Hill High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">89-30 114th St, Richmond Hill, NY 11418</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.833911499999999</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.694996099999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="66" ss:Height="16">
+    <Cell><Data ss:Type="String">Robert F Wagner Jr</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">4707 30th Pl, Long Island City, NY 11101</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.936939499999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.741443799999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="67" ss:Height="16">
+    <Cell><Data ss:Type="String">Scholars' Academy (Rockaway Park)</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">320 Beach 104th St, Rockaway Park, NY 11694</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.825089199999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.584272200000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="68" ss:Height="16">
+    <Cell><Data ss:Type="String">Stuyvesant High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">345 Chambers St, New York, NY 10282</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-74.013762299999996</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.718149199999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="69" ss:Height="16">
+    <Cell><Data ss:Type="String">Teachers College Community School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">168 Morningside Ave, New York, NY 10027</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.953540399999994</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.812516500000001</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="70" ss:Height="16">
+    <Cell><Data ss:Type="String">The Young Women's Leadership School of East Harlem (TYWLS)</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">105 E 106th St #9, New York, NY 10029</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.947168000000005</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.792935</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="71" ss:Height="16">
+    <Cell><Data ss:Type="String">The Young Women's Leadership School of the Bronx (MS)</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">1865 Morris Ave, Bronx, NY 10453</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.908745800000005</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.848579299999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="72" ss:Height="16">
+    <Cell><Data ss:Type="String">Women's Academy of Excellence</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">456 White Plains Rd, Bronx, NY 10473</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.856057300000003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.814900999999999</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="73" ss:Height="16">
+    <Cell><Data ss:Type="String">Thomas A Edison Career and Technical High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">165-65 84th Ave, Jamaica, NY 11432</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.798803899999996</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.716210699999998</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="74" ss:Height="16">
+    <Cell><Data ss:Type="String">Townsend Harris High School</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">149-11 Melbourne Ave, Flushing, NY 11367</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.821229399999993</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.735175400000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="75" ss:Height="16">
+    <Cell><Data ss:Type="String">Urban Assembly Institute of Math and Science for Young Women, The</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">283 Adams St, Brooklyn, NY 11201</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.988501999999997</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.694723000000003</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="76" ss:Height="16">
+    <Cell><Data ss:Type="String">Wadleigh</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">215 W 114th St, New York, NY 10026</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.954140300000006</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.802574399999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="77" ss:Height="16">
+    <Cell><Data ss:Type="String">West Bronx Academy for the Future </Data>
+    </Cell>
+    <Cell><Data ss:Type="String">500 E Fordham Rd, Bronx, NY 10458</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.888674300000005</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.859402099999997</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="78" ss:Height="16">
+    <Cell ss:StyleID="S63"><Data ss:Type="String">English Language Learners &amp; International Support (ELLIS) Preparatory Academy</Data>
+    </Cell>
+    <Cell ss:StyleID="S62"><Data ss:Type="String">99 Terrace View Ave, Bronx, NY 10463</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.912577999999996</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.87726</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="79" ss:Height="16">
+    <Cell ss:StyleID="S63"><Data ss:Type="String">SEAS</Data>
+    </Cell>
+    <Cell ss:StyleID="S64"><Data ss:Type="String">500 W 120th St, New York, NY 10027</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">-73.960289000000003</Data>
+    </Cell>
+    <Cell><Data ss:Type="Number">40.809497999999998</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup />
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+     <RangeSelection>R5C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
