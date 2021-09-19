@@ -1,0 +1,31 @@
+category_id,reaction,sum_reaction_start,sum_reaction_end
+"""People & Blogs""",likes,0,95.91430195
+"""People & Blogs""",dislikes,4.085698054,100
+"""Comedy""",likes,0,97.20499383
+"""Comedy""",dislikes,2.79500617,100
+"""Film & Animation""",likes,0,96.53018434
+"""Film & Animation""",dislikes,3.469815664,100
+"""Sports""",likes,0,96.51482903
+"""Sports""",dislikes,3.485170967,100
+"""Pets & Animals""",likes,0,98.23795341
+"""Pets & Animals""",dislikes,1.762046587,100
+"""Howto & Style""",likes,0,95.61447175
+"""Howto & Style""",dislikes,4.385528255,100
+"""Travel & Events""",likes,0,94.7653072
+"""Travel & Events""",dislikes,5.234692803,100
+"""Nonprofits & Activism""",likes,0,98.27586207
+"""Nonprofits & Activism""",dislikes,1.724137931,100
+"""Entertainment""",likes,0,92.45784792
+"""Entertainment""",dislikes,7.542152078,100
+"""Science & Technology""",likes,0,93.34753577
+"""Science & Technology""",dislikes,6.652464228,100
+"""News & Politics""",likes,0,80.69407235
+"""News & Politics""",dislikes,19.30592765,100
+"""Music""",likes,0,97.41210403
+"""Music""",dislikes,2.587895973,100
+"""Education""",likes,0,95.9553046
+"""Education""",dislikes,4.044695402,100
+"""Autos & Vehicles""",likes,0,94.61185084
+"""Autos & Vehicles""",dislikes,5.388149158,100
+"""Gaming""",likes,0,97.35913061
+"""Gaming""",dislikes,2.640869386,100
